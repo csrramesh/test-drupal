@@ -12,19 +12,19 @@
     "secrets": [
       {
         "name": "DB_HOST",
-        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config:DB_HOST"
+        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config-v2:DB_HOST"
       },
       {
         "name": "DB_NAME",
-        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config:DB_NAME"
+        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config-v2:DB_NAME"
       },
       {
         "name": "DB_USER",
-        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config:DB_USER"
+        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config-v2:DB_USER"
       },
       {
         "name": "DB_PASSWORD",
-        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config:DB_PASSWORD"
+        "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:785028034935:secret:prod/drupal/db-config-v2:DB_PASSWORD"
       }
     ]
   }
