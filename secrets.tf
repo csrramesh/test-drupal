@@ -1,6 +1,6 @@
 
 resource "aws_secretsmanager_secret" "drupal_db_config" {
-  name        = "prod/drupal/db-config-v2"
+  name        = "prod/drupal/db-config-v4"
   description = "Drupal database configuration for ECS deployment"
 }
 
